@@ -1,0 +1,20 @@
+{
+    "schema_version": "1.0",
+    "packages": [
+        {
+            "name": "Sublime_JavaExtensions",
+            "description": "Provides IDE shortcut commands for building java applications quickly",
+            "author": "Chris Wood",
+            "homepage": "https://github.com/chrispwood/Sublime_JavaExtensions.git",
+            "last_modified": "2013-03-16 11:06:00",
+            "platforms": {
+                "*": [
+                    {
+                        "version": "1.0",
+                        "url": "https://github.com/chrispwood/Sublime_JavaExtensions/archive/master.zip"
+                    }
+                ]
+            }
+        }
+    ]
+}

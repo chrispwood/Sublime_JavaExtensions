@@ -1,0 +1,3 @@
+Version 1.0
+
+ - Provided ability to create basic class structure with *-k, *-c (ctrl/cmd)

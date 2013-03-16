@@ -1,0 +1,29 @@
+[
+
+// HTML Specific snippets
+{ "keys": ["super+shift+c"], "command": "run_macro_file", "args": {"file": "Packages/User/html_comment.sublime-macro"}, "context":
+	[
+		{ "key": "selector", "operator": "equal", "operand": "text.html" }
+	]
+},
+
+// DB Specific snippets
+{ "keys": ["super+alt+i"], "command": "run_macro_file", "args": {"file": "Packages/User/db2_auto_increment.sublime-macro"}, "context":
+	[
+		{ "key": "selector", "operator": "equal", "operand": "text.sql" }
+	]
+},
+{ "keys": ["super+alt+n"], "command": "run_macro_file", "args": {"file": "Packages/User/not_null.sublime-macro"}, "context": 
+	[
+		{ "key": "selector", "operator": "equal", "operand": "text.sql" }
+	]
+},
+{ "keys": ["super+alt+l"], "command": "run_macro_file", "args": {"file": "Packages/User/db2_sp_drop_object.sublime-macro"}, "context":
+	[
+		{ "key": "selector", "operator": "equal", "operand": "text.sql" }
+	]
+},
+
+{ "keys": ["super+k", "super+c"], "command": "java_create_class" }
+
+]
